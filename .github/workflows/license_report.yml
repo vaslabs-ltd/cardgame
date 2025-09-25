@@ -23,7 +23,7 @@ jobs:
       - name: Set up SBT
         uses: sbt/setup-sbt@v1
       - name: Generate license report
-        run: sbt dumpLicenseReport
+        run: sbt dumpLicenseReportAggregate
       - name: Upload license report artifacts
         uses: actions/upload-artifact@v4
         with:
