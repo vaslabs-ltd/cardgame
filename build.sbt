@@ -94,3 +94,11 @@ lazy val compilerSettings = Seq(
     "-Xfatal-warnings"
   )
 )
+
+import sbtlicensereport.license.{LicenseInfo, DepModuleInfo}
+
+licenseReportTitle := "ExampleReport"
+
+licenseReportStyleRules := Some("table, th, td {border: 1px solid black;}")
+
+licenseConfigurations := Set("compile", "provided")

@@ -6,6 +6,7 @@
 /*/target
 /target
 /project/project/target
+/project/project/project/target
 
 .#*
 /scratch
@@ -15,7 +16,7 @@
 .history
 .idea
 *.class
-.idea
+.bsp
 
 hs_err_*.log
 _book
